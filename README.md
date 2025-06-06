@@ -35,7 +35,7 @@ Air quality forecasting plays a crucial role in urban environmental management a
 ### Adaptive Spatiotemporal Attention Mechanism (ASTAM)
 
 <p align="center">
-  <img src="Figures/Fig.3.png" alt="ASTAM" width="400"/>
+  <img src="Figures/Fig.3.png" alt="ASTAM" width="700"/>
 </p>  
 *Captures spatiotemporal heterogeneity by assigning dynamic attention weights across spatial and temporal dimensions.*
 
@@ -43,7 +43,7 @@ Air quality forecasting plays a crucial role in urban environmental management a
 
 ### DDPG Actor Network in RLMC
 
-![DDPG Actor](Figures/Fig.2.png)  
+![DDPG Actor](Figures/Fig.3.png)  
 *Learns to generate dynamic fusion weights for multi-graph outputs during ensemble prediction.*
 
 ---
