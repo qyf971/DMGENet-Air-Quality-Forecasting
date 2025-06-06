@@ -28,7 +28,7 @@ Air quality forecasting plays a crucial role in urban environmental management a
 ### Overall Framework of DMGENet
 
 ![Model Architecture](Figures/Fig.1.png)  
-*A unified architecture consisting of multi-graph constructor, spatiotemporal encoder (Gated TCN + HGLM + ASTAM), and a reinforcement-learning-based ensemble controller.*
+*The proposed DMGENet mainly consists of two components: the Multi-Graph Prediction Module and the Ensemble Prediction Module. *
 
 ---
 
