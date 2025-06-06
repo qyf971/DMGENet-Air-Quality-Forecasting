@@ -35,7 +35,7 @@ Air quality forecasting plays a crucial role in urban environmental management a
 ### Adaptive Spatiotemporal Attention Mechanism (ASTAM)
 
 <p align="center">
-  <img src="Figures/Fig.2.png" alt="ASTAM" width="700"/>
+  <img src="Figures/Fig.2.png" alt="ASTAM" width="650"/>
 </p>  
 *Captures spatiotemporal heterogeneity by assigning dynamic attention weights across spatial and temporal dimensions.*
 
