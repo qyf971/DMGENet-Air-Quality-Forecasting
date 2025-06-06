@@ -49,7 +49,7 @@ All datasets include spatial coordinates of monitoring stations, temporal sequen
 ### Adaptive Spatiotemporal Attention Mechanism (ASTAM)
 
 <p align="center">
-  <img src="Figures/Fig.2.png" alt="ASTAM" width="400"/>
+  <img src="Figures/Fig.3.png" alt="ASTAM" width="400"/>
 </p>  
 *Captures spatiotemporal heterogeneity by assigning dynamic attention weights across spatial and temporal dimensions.*
 
@@ -57,7 +57,7 @@ All datasets include spatial coordinates of monitoring stations, temporal sequen
 
 ### DDPG Actor Network in RLMC
 
-![DDPG Actor](Figures/Fig.3.png)  
+![DDPG Actor](Figures/Fig.2.png)  
 *Learns to generate dynamic fusion weights for multi-graph outputs during ensemble prediction.*
 
 ---
