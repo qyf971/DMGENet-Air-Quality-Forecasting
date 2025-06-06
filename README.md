@@ -33,7 +33,7 @@ To address these issues, this paper proposes a **Dynamic Multi-Graph Ensemble Ne
 
 ### Overall Framework of DMGENet
 
-![Model Architecture](Fig.1.png)
+![Model Architecture](./Fig.1.png)
 *A unified architecture consisting of multi-graph constructor, spatiotemporal encoder (Gated TCN + HGLM + ASTAM), and a reinforcement-learning-based ensemble controller.*
 
 ---
