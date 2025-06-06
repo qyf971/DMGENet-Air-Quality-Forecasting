@@ -23,20 +23,6 @@ Air quality forecasting plays a crucial role in urban environmental management a
 
 ---
 
-## 📊 Dataset Description
-
-We evaluate DMGENet on several publicly available real-world datasets widely used in air quality and traffic forecasting research:
-
-- **PEMS03, PEMS04, PEMS07, PEMS08**  
-  Traffic flow and air quality sensor data collected from highway sensor networks in California, USA, each dataset covering different regions with varying numbers of sensors.
-
-- **Beijing PM2.5 Dataset**  
-  Hourly PM2.5 concentration data collected from multiple monitoring stations in Beijing, China, including meteorological factors such as temperature, humidity, and wind speed.
-
-All datasets include spatial coordinates of monitoring stations, temporal sequences of measurements, and auxiliary features. Standard preprocessing such as normalization and missing data handling is applied.
-
----
-
 ## 🧩 Model Diagrams
 
 ### Overall Framework of DMGENet
