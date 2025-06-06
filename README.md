@@ -33,28 +33,28 @@ To address these issues, this paper proposes a **Dynamic Multi-Graph Ensemble Ne
 
 ### Overall Framework of DMGENet
 
-![Model Architecture](./Fig.1.png)
+![Model Architecture](Figures/Fig.1.png)
 *A unified architecture consisting of multi-graph constructor, spatiotemporal encoder (Gated TCN + HGLM + ASTAM), and a reinforcement-learning-based ensemble controller.*
 
 ---
 
 ### Adaptive Spatiotemporal Attention Mechanism (ASTAM)
 
-![ASTAM](Fig.2.png)
+![ASTAM](Figures/Fig.2.png)
 *Captures spatiotemporal heterogeneity by assigning dynamic attention weights across spatial and temporal dimensions.*
 
 ---
 
 ### DDPG Actor Network in RLMC
 
-![DDPG Actor](Fig.3.png)
+![DDPG Actor](Figures/Fig.3.png)
 *Learns to generate dynamic fusion weights for multi-graph outputs during ensemble prediction.*
 
 ---
 
 ### Training Pipeline of RLMC
 
-![RLMC Training](Fig.4.png)
+![RLMC Training](Figures/Fig.4.png)
 *Illustrates the training process of the Reinforcement Learning-based Multi-Graph Controller using improved DDPG.*
 
 ---
