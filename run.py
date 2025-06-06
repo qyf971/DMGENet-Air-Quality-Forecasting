@@ -75,10 +75,10 @@ models = {
 
 for model_name, model_instance in models.items():
     exp = Exp_model(model_name, model_instance, args.epoch, args.learning_rate, args.target, args.batch_size, args.num_workers, args.dataset, args.predict_len, args.run, args.ratio)
-    print(model_name + "训练开始！")
+    print(model_name + "training start!")
     exp.train()
-    print(model_name + "训练结束！")
-    print(model_name + "测试开始！")
+    print(model_name + "training end!")
+    print(model_name + "testing start!")
     exp.test()
-    print(model_name + "测试结束！")
+    print(model_name + "testing end!")
     print("================================================================================================================================================")
