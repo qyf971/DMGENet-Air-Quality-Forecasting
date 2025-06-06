@@ -51,7 +51,7 @@ Air quality forecasting plays a crucial role in urban environmental management a
 ### Training Pipeline of RLMC
 
 ![RLMC Training](Figures/Fig.4.png)  
-*Illustrates the training process of the Reinforcement Learning-based Multi-Graph Controller using improved DDPG.*
+*Illustrates the training process of the Reinforcement Learning-based Multi-Graph Ensemble Method using improved DDPG.*
 
 ---
 
