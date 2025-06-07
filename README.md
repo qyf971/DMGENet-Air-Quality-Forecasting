@@ -14,7 +14,7 @@ This paper proposes **DMGENet**, a novel deep learning framework for **short-ter
 
 The air quality data is collected from **12 observing stations** around **Beijing**, covering the years **2013–2017**.  
 It includes hourly measurements of various air pollutants and meteorological variables.  
-The dataset is publicly available from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Beijing+Multi+Site+Air+Quality+Data) *(数据集链接)*.
+The dataset is publicly available from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Beijing+Multi+Site+Air+Quality+Data).
 
 ---
 
