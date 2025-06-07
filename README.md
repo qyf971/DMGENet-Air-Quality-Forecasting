@@ -6,8 +6,9 @@
 
 ## 📝 Abstract
 
-This paper proposes **DMGENet**, a novel deep learning framework for **short-term air quality forecasting**. To better capture complex spatiotemporal dependencies, the model integrates multi-graph spatial structures, advanced temporal modeling, and a dynamic ensemble mechanism based on reinforcement learning. Experimental results demonstrate that DMGENet outperforms existing baselines in prediction accuracy, showing strong adaptability and effectiveness in real-world air quality scenarios.
+## 📝 Abstract
 
+We propose **DMGENet** (Dynamic Multi-Graph Ensemble Neural Network), a novel architecture that integrates multi-graph structural modeling, spatiotemporal attention mechanisms, and a reinforcement learning-based ensemble strategy for accurate short-term air quality forecasting. By combining heterogeneous spatial dependencies and dynamic temporal patterns, DMGENet achieves superior predictive performance and strong adaptability in real-world scenarios.
 ---
 
 ## 📊 Dataset
