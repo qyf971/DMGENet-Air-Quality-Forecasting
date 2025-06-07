@@ -6,7 +6,7 @@
 
 ## 📝 Abstract
 
-We propose **DMGENet** (Dynamic Multi-Graph Ensemble Neural Network), a novel architecture that integrates multi-graph structural modeling, spatiotemporal attention mechanisms, and a reinforcement learning-based ensemble strategy for accurate short-term air quality forecasting. By combining heterogeneous spatial dependencies and dynamic temporal patterns, DMGENet achieves superior predictive performance and strong adaptability in real-world scenarios.
+Air quality forecasting plays a crucial role in urban environmental management and public health protection. However, existing methods still face challenges in modeling complex spatiotemporal relationships, integrating multi-source spatial information, and achieving dynamic adaptability. To address these issues, this paper proposes a Dynamic Multi-Graph Ensemble Neural Network (DMGENet) for short-term air quality forecasting. Specifically, multiple spatial graph structures are constructed from four perspectives—geographical distance, adjacency, semantic correlation, and functional similarity—to comprehensively encode spatial dependencies between monitoring stations. Subsequently, a novel spatiotemporal feature extraction framework is designed by integrating gated temporal convolution with a hybrid graph learning module, along with an adaptive spatiotemporal attention mechanism to effectively tackle spatiotemporal heterogeneity. Finally, a dynamic ensemble method based on an improved deep reinforcement learning strategy is introduced to adaptively combine the prediction results of multiple graph models, thereby enhancing model flexibility and forecasting accuracy. Experimental results show that, for the 6-hour ahead forecasting task, the proposed model achieves average reductions of 11.44% in RMSE and 12.50% in MAE compared to GC-LSTM, demonstrating its superior performance in short-term air quality forecasting.
 
 ---
 
@@ -21,13 +21,13 @@ The dataset is publicly available from the [UCI Machine Learning Repository](htt
 ## 🚀 Key Contributions
 
 1. **Multi-Graph Construction**  
-   A novel construction method encodes diverse inter-station spatial relationships, providing the model with richer prior structural information.
+   We propose a multi-graph construction method that encodes diverse inter-station spatial relationships, thereby providing the model with richer prior structural information.
 
 2. **Spatiotemporal Feature Extraction Module**  
-   A hybrid module that combines a **Gated Temporal Convolutional Network (Gated TCN)** and a **Hybrid Graph Learning Module (HGLM)** to separately capture temporal and spatial dependencies, enhanced by an **Adaptive Spatiotemporal Attention Mechanism (ASTAM)** to address spatiotemporal heterogeneity.
+   We develop a novel spatiotemporal feature extraction module that integrates a Gated Temporal Convolutional Network (Gated TCN) and a Hybrid Graph Learning Module (HGLM) to separately capture temporal and spatial dependencies, and further incorporates an Adaptive Spatiotemporal Attention Mechanism (ASTAM) to effectively address the inherent spatiotemporal heterogeneity in air quality prediction.
 
 3. **Dynamic Ensemble via Reinforcement Learning**  
-   A dynamic ensemble strategy using an improved **Deep Deterministic Policy Gradient (DDPG)** algorithm to adaptively fuse outputs from multiple graph-based models.
+   We introduce a dynamic multi-graph ensemble method based on an improved Deep Deterministic Policy Gradient (DDPG) algorithm to adaptively integrate predictions from multiple graph-based models, thereby improving overall forecasting performance.
 
 ---
 
@@ -36,7 +36,7 @@ The dataset is publicly available from the [UCI Machine Learning Repository](htt
 ### 🔷 Overall Framework of DMGENet
 
 ![Model Architecture](Figures/Fig.1.png)  
-*The proposed DMGENet mainly consists of two components: the Multi-Graph Prediction Module and the Ensemble Prediction Module.*
+The proposed DMGENet mainly consists of two components: the Multi-Graph Prediction Module and the Ensemble Prediction Module.
 
 ---
 
@@ -45,20 +45,20 @@ The dataset is publicly available from the [UCI Machine Learning Repository](htt
 <p align="center">
   <img src="Figures/Fig.2.png" alt="ASTAM" width="600"/>
 </p>  
-*Captures spatiotemporal heterogeneity by assigning dynamic attention weights across spatial and temporal dimensions.*
+Addresses spatiotemporal heterogeneity by assigning dynamic attention weights across spatial and temporal dimensions.
 
 ---
 
 ### 🧠 DDPG Actor Network in RLMC
 
 ![DDPG Actor](Figures/Fig.3.png)  
-*Learns to generate dynamic fusion weights for multi-graph outputs during ensemble prediction.*
+Learns to generate dynamic fusion weights for multi-graph outputs during ensemble prediction.
 
 ---
 
 ### 🛠️ Training Pipeline of RLMC
 
 ![RLMC Training](Figures/Fig.4.png)  
-*Illustrates the training process of the Reinforcement Learning-based Multi-Graph Ensemble Method using improved DDPG.*
+Illustrates the training process of the Reinforcement Learning-based Dynamic Multi-Graph Ensemble Method using improved DDPG.
 
 ---
