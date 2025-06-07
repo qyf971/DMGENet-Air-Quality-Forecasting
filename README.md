@@ -6,15 +6,7 @@
 
 ## 📝 Abstract
 
-Air quality forecasting plays a crucial role in urban environmental management and public health protection. However, existing methods still face challenges in modeling complex spatiotemporal relationships, integrating multi-source spatial information, and achieving dynamic adaptability.
-
-To address these issues, this paper proposes a **Dynamic Multi-Graph Ensemble Neural Network (DMGENet)** for short-term air quality forecasting. Specifically, multiple spatial graph structures are constructed from four perspectives—**geographical distance, adjacency, semantic correlation**, and **functional similarity**—to comprehensively encode spatial dependencies between monitoring stations.
-
-A novel spatiotemporal feature extraction framework is designed by integrating **gated temporal convolution** with a **hybrid graph learning module**, along with an **adaptive spatiotemporal attention mechanism** to effectively tackle spatiotemporal heterogeneity.
-
-Finally, a **dynamic ensemble method** based on an improved deep reinforcement learning strategy is introduced to adaptively combine the prediction results of multiple graph models, thereby enhancing model flexibility and forecasting accuracy.
-
-> Experimental results show that, for the 6-hour ahead forecasting task, the proposed model achieves average reductions of **11.44% in RMSE** and **12.50% in MAE** compared to **GC-LSTM**, demonstrating its superior performance in short-term air quality forecasting.
+This paper proposes **DMGENet**, a novel deep learning framework for **short-term air quality forecasting**. To better capture complex spatiotemporal dependencies, the model integrates multi-graph spatial structures, advanced temporal modeling, and a dynamic ensemble mechanism based on reinforcement learning. Experimental results demonstrate that DMGENet outperforms existing baselines in prediction accuracy, showing strong adaptability and effectiveness in real-world air quality scenarios.
 
 ---
 
